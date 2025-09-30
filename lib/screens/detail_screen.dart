@@ -99,7 +99,7 @@ class _DetailScreenState extends State<DetailScreen> {
                           ),
                           child: Text(
                             hb,
-                            style: TextStyle(fontSize: 16, color: Colors.white),
+                            style: TextStyle(fontSize: 16, color: Colors.white, fontWeight: FontWeight.bold),
                           ),
                         );
                       }).toList(),
@@ -127,7 +127,7 @@ class _DetailScreenState extends State<DetailScreen> {
                           ),
                           child: Text(
                             act,
-                            style: TextStyle(fontSize: 16, color: Colors.white),
+                            style: TextStyle(fontSize: 16, color: Colors.white, fontWeight: FontWeight.bold),
                           ),
                         );
                       }).toList(),

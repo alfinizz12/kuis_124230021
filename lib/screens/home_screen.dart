@@ -43,7 +43,12 @@ class _HomeScreenState extends State<HomeScreen> {
                     actions: [
                       TextButton(
                         onPressed: () => Navigator.of(context).pop(),
-                        child: Text("No"),
+                        child: Text(
+                          "No",
+                          style: TextStyle(
+                            color: Colors.red
+                          ),
+                        ),
                       ),
                       TextButton(
                         onPressed: () {

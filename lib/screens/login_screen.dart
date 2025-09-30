@@ -15,7 +15,7 @@ class _LoginScreenState extends State<LoginScreen> {
   bool _isPasswordVisible = false;
 
   void _login(String username, String password) {
-    if (username == "alfin" && password == "admin123") {
+    if (username == "alfin" && password == "021") {
       setState(() {
         Navigator.of(context).pushReplacement(
           MaterialPageRoute(builder: (context) => HomeScreen()),
