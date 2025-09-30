@@ -135,6 +135,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                     Text(dummyAnimals[index].type),
                                     SizedBox(height: 10,),
                                     SingleChildScrollView(
+                                      scrollDirection: Axis.horizontal,
                                       child: Row(
                                         children: dummyAnimals[index].habitat.map((hb){
                                           return Container(
